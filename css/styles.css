@@ -1,0 +1,302 @@
+.containBox {
+  width: 90%;
+  margin: 0 auto;
+}
+.containBox .navs {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  opacity: 0.9;
+}
+.containBox .navs .navsItem {
+  font-family: 'Open Sans', sans-serif;
+  color: #e0e0e0;
+  padding: 15px 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.containBox .navs .navsItem:hover {
+  background-color: #ff3f40;
+  cursor: pointer;
+}
+.containBox .presentationBlock {
+  display: flex;
+  padding: 40px 40px;
+  background-color: #f6f2f2;
+}
+.containBox .presentationBlock .tittle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  line-height: 72px;
+}
+.containBox .presentationBlock .info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 60px;
+  line-height: 28px;
+}
+.containBox .presentationBlock .btnItem {
+  padding: 15px 30px;
+  background-color: #ff2d2d;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.containBox .presentationBlock .btnItem:hover {
+  background-color: white;
+  border: 1px #ff2d2d solid;
+  color: black;
+}
+.containBox .description .bgrPresentaionBlock {
+  background-color: white;
+}
+.containBox .description .bgrPresentaionBlock .titleText {
+  font-weight: bold;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  line-height: 55px;
+}
+.containBox .description .bgrPresentaionBlock .btnBg {
+  background-color: white;
+  border: 1px #ff2d2d solid;
+  color: black;
+}
+.containBox .description .bgrPresentaionBlock .btnBg:hover {
+  background-color: white;
+  border: 1px #ff2d2d solid;
+  background-color: #ff2d2d;
+  color: #ffffff;
+}
+.containBox .description .bgrPresentaionBlock .listItem {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.containBox .description .bgrPresentaionBlock .listItem .group {
+  display: flex;
+}
+.containBox .description .bgrPresentaionBlock .listItem .group .nameBlock {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.containBox .description .bgrPresentaionBlock .listItem .group .descriotionBlock {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+.containBox .gallery {
+  margin-bottom: 80px;
+}
+.containBox .gallery .commonText {
+  text-align: center;
+  margin-top: 40px;
+}
+.containBox .gallery .commonText .generalName {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.containBox .gallery .commonText .infoText {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 60px;
+  line-height: 28px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.containBox .gallery .commonText .infoText::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #ff3f40;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.containBox .gallery .navs {
+  background-color: white;
+}
+.containBox .gallery .navs .galleryNavs {
+  color: black;
+}
+.containBox .gallery .navs .galleryNavs:hover {
+  color: red;
+  background-color: white;
+}
+.containBox .generalName {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.containBox .infoText {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 60px;
+  line-height: 28px;
+  width: 60%;
+}
+.containBox .infoText::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #ff3f40;
+  margin-top: 20px;
+}
+.containBox .teamBlock {
+  margin-bottom: 120px;
+}
+.containBox .teamBlock .collapseBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.containBox .teamBlock .exp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containBox .teamBlock .nameTeam {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+.containBox .teamBlock .infoTextTeam {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+}
+.containBox .teamBlock .boxforphoto {
+  width: 250px;
+  height: 150px;
+}
+.containBox .teamBlock .blockwithTeamItem {
+  width: 250px;
+  height: 150px;
+}
+.mailForm {
+  text-align: center;
+  background-color: #f5f0dd;
+  padding: 100px 0;
+}
+.mailForm .textstyle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
+  color: white;
+  margin-bottom: 20px;
+}
+.mailForm .styleforp {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 50px;
+}
+.mailForm .btnItem {
+  padding: 15px 30px;
+  border: 1px #ff2d2d solid;
+  background-color: #ff2d2d;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.mailForm .btnItem:hover {
+  background-color: white;
+  border: 1px #ff2d2d solid;
+  color: black;
+}
+.mailForm .inputmail {
+  padding: 15px 30px;
+}
+.contact {
+  padding: 60px 0;
+}
+.contact .usersInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .btnItem {
+  padding: 15px 200px;
+  background-color: #ff2d2d;
+  border: 1px #ff2d2d solid;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.contact .btnItem:hover {
+  background-color: white;
+  border: 1px #ff2d2d solid;
+  color: black;
+}
+.contact .paddforinput {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .inputName {
+  border: 0px;
+  border-radius: 4px;
+  background-color: #e5e5e5;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+.contact .message {
+  padding: 100px 175px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #e5e5e5;
+  margin-bottom: 20px;
+}
+.contact .companyInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 30px 70px;
+}
+.contact .infoTextContact {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.contact .infoTextTittle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #313030;
+  padding: 20px 30px;
+  color: white;
+  align-items: center;
+}
+.footer .social {
+  font-size: 40px;
+  margin-right: 15px;
+  color: white;
+}
+.footer .social:hover {
+  color: #ff2d2d;
+}
